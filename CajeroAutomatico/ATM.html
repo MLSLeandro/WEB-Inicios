@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<body>
+    <h1>ATM</h1>
+    <p>
+        <img src="cajero.gif" />    
+    </p>
+    <p><strong>Inventario Billetes en ATM</strong>
+    </p>
+    <p>
+        <strong>Billete.......Cantidad</strong><br>
+        <input type="number" id="txtB00" min="0" max="100000" step="10000" value="0" list="listaBilletes"/>
+        <input type="number" id="txtC00" min="0" max="10000" step="1" value="0" /><br />
+        <input type="number" id="txtB01" min="0" max="100000" step="10000" value="0" list="listaBilletes"/>
+        <input type="number" id="txtC01" min="0" max="10000" step="1" value="0" /><br />
+        <input type="number" id="txtB02" min="0" max="100000" step="10000" value="0" list="listaBilletes"/>
+        <input type="number" id="txtC02" min="0" max="10000" step="1" value="0" /><br />
+        <input type="number" id="txtB03" min="0" max="100000" step="10000" value="0" list="listaBilletes"/>
+        <input type="number" id="txtC03" min="0" max="10000" step="1" value="0" /><br />
+        <input type="number" id="txtB04" min="0" max="100000" step="10000" value="0" list="listaBilletes"/>
+        <input type="number" id="txtC04" min="0" max="10000" step="1" value="0" /><br />
+        <input type="number" id="txtB05" min="0" max="100000" step="10000" value="0" list="listaBilletes"/>
+        <input type="number" id="txtC05" min="0" max="10000" step="1" value="0" /><br />
+        <input type="number" id="txtB06" min="0" max="100000" step="10000" value="0" list="listaBilletes"/>
+        <input type="number" id="txtC06" min="0" max="10000" step="1" value="0" />
+
+        <hr />
+    </p>
+    <p>
+        Cuantos dinero desea Retirar $ 
+        <input type="number" id="txtValRetiro" min="10000" max="20000000" step="10000" list="listaValoresRetiro"/>
+        <input type="button" value="Solicitar Retiro" id="btnRetirar" />
+        <hr />
+    </p>
+    <p>
+        <strong>Dinero a Dispensar </strong><br>        
+    </p>
+
+    <p id="resultado"></p>
+
+    <datalist id="listaValoresRetiro">
+        <option value="100000"></option>
+        <option value="200000"></option>
+        <option value="300000"></option>
+        <option value="400000"></option>
+        <option value="700000"></option>
+    </datalist>
+    <datalist id="listaBilletes">
+        <option value="1000"></option>
+        <option value="2000"></option>
+        <option value="5000"></option>
+        <option value="10000"></option>
+        <option value="20000"></option>
+        <option value="50000"></option>
+        <option value="100000"></option>
+    </datalist>
+        
+    <script type="text/javascript" src="classATM.js"></script>
+    <script type="text/javascript" src="ATM.js"></script>
+    
+</body>
+</html>

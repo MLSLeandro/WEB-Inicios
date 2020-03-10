@@ -1,0 +1,18 @@
+    DNS = Resuelve la url y la convierte en una direccion IP
+    Puerto nautral de internet = 80
+    Metodos en la WEB (para comunicarse desde el FrontEnd al Backend) = 
+        GET. Cuando en la URL esta ?var1&?var2 = Los datos se envian en la url
+        POST. Manda los datos en los Headers HTTP (hay cambio de URL)
+        AJAX. No hay cambio de URL. Este cambio se hace dentro del body HTML
+        Sockets. Transmitir datos cliente - servidor en tiempo real.
+        
+    NodeJS= Es la forma de correr JavaScript del lado del servidor.el 
+            El comando node desde el CMD de windows, lo que hace es abrir una consola de javascript, que se ejecuta sin el navegador
+            desde el CMD con el comando "node -v", se visualiza la version del NodeJS instalada
+            nodejs, necesita un framework (una libreria), que le permita crear aplicaciones WEB, la libreria mas sencilla se llama Express
+            para instalar librerias en node hay un sistema standar que se llama "npm"
+            npm = (Organizacion dedicada a consolidar todos los paquetes de javascript que otros programadores han creado)
+            npm = es un comando, para instalar librerias de nodejs, por ejemplo para instalar la libreria "Express", es "npm instal express".
+            "npm instal express"= instala la libreria en la carpeta donde este ubicado al momento de eejecutarlo desde el CMD
+            "npm instal express -g"= instala la libreria en el entorno global, es decir para todos los usuarios 
+                                    (no exclusivo para la carpeta donde este ubicado)
